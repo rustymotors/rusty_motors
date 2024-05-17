@@ -1,0 +1,8 @@
+[package]
+name = "rusty_motors"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+des = "0.8.1"
+rc4 = "0.1.0"
