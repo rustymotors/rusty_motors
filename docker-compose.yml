@@ -25,7 +25,7 @@ services:
             - no-new-privileges:true
 
     adminer:
-        image: adminer:4.8.1@sha256:ee90fd19757e0f89bb991f63bf04fd0530a0f98f408605d2b88f812fc0c3ec7b
+        image: adminer:4.8.1@sha256:b652db0fa109e295c0bed36ef8c539f09124de19467cb2698829986bb7913c0e
         restart: always
         ports:
             - 8080:8080
